@@ -1,0 +1,31 @@
+.button {
+    border-radius: 6px;
+    padding: 8px 30px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border 0.25s;
+    font-size: 16px;
+    border: none;
+    align-self: flex-start;
+}
+.button:hover {
+    background: #232185;
+}
+
+.accent {
+    background: #312EB5;
+    color: #FFF;
+}
+
+.trash {
+    position: absolute;
+    right: 0;
+    background: none;
+    width: 30px;
+    height: 30px;
+    padding: 0 !important;
+}
+
+.trash:hover {
+    background: #232185;
+}

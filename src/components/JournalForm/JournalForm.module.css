@@ -1,0 +1,71 @@
+.journal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.input {
+    background: rgb(24, 24, 24);
+    width: 100px;
+    height: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    border: none;
+}
+
+.input-text {
+    width: 938px;
+    height: 420px;
+    color: rgb(255, 255, 255);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    resize: none;
+    border: none;
+}
+
+hr {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper > img {
+    padding-right: 12px;
+}
+
+.input-wrapper > span {
+    display: inline-block;
+    width: 100px;
+    padding-right: 8px;
+    padding-left: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.invalid {
+    border: 1px solid red;
+    background: rgba(255, 0, 0, 0.445);
+}
+
+.trash-img {
+    pointer-events: none;
+}
+
